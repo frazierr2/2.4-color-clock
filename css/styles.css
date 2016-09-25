@@ -1,0 +1,20 @@
+body {
+  color: #bbb;
+  font-family: Helvetica;
+  text-align: center; }
+
+h1 {
+  text-align: center;
+  font-weight: bold; }
+
+#clock {
+  font-size: 16vw;
+  margin: 150px auto;
+  margin-bottom: 10px; }
+
+#secondsbar {
+  border-bottom: 3px solid white;
+  text-align: center;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=styles.css.map */
