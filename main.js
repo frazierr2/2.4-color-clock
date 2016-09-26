@@ -41,10 +41,10 @@ if (hours.lenth < 2){
 
 var colorClock = hours + ':' + minutes + ':' + seconds;
 var percentageForStatusbar = ((seconds/60)*100).toFixed();
-var hexColorStr =  hours + minutes + seconds;
+var hexColorStr =  hours  + minutes  + seconds;
 
 if(hoverOverClock == true){
-  clock.textContent = "#" + hexColorStr;
+  clock.textContent =  hexColorStr;
 }else{
   clock.textContent = colorClock;
 };
