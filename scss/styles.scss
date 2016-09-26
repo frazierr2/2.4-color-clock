@@ -1,32 +1,21 @@
 
-body{
-  // background-color: #333;
-  color: #bbb;
-  font-family: Helvetica;
-  text-align: center;
-}
-
 .container{
   height: 500px;
   padding-top: 100px;
-  background-color: yellow;
+  // background-color: yellow;
   text-align: center;
   font-size: 250px;
+  color: white;
+  font-family: helvetica;
 
 }
-//
-// h1{
-//   text-align: center;
-//   font-weight: bold;
-// }
 
-// #clock{
-//   font-size: 16vw;
-//   margin: 150px auto;
-//   margin-bottom: 10px;
-//   position: relative;
-//   bottom: 650px;
-// }
+.hours:after,.minutes:after{
+  content: ":";
+}
+.minutes, .seconds{
+  margin-left: -40px;
+}
 
 #secondsbar{
   border-bottom: 10px solid white;

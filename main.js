@@ -54,28 +54,25 @@ var colorCode = '#' + currentRed + currentGreen + currentBlue;
 background.style.backgroundColor = colorCode;
 
 
-var colorClock = hours + ':' + minutes + ':' + seconds;
+// var colorClock = hours + ':' + minutes + ':' + seconds;
 var percentageForStatusbar = ((seconds/60)*100).toFixed();
-// var hexColorStr =  hours  + minutes + seconds;
 
 
-//***EDITED IN CLASS******
+
+//***EDITED IN CLASS****** THIS IF FOR EXECUTING HEX VS REG. CLOCK
 if(hoverOverClock == true){
-  // clock.textContent =  colorCode;
   hoursContainer.textContent = currentRed;
   minutesContainer.textContent = currentGreen;
   secondsContainer.textContent = currentBlue;
 
 }else{
-  // clock.textContent = colorClock;
   hoursContainer.textContent = ( '0' + hours).slice(-2);
   minutesContainer.textContent = ('0' + minutes).slice(-2);
   secondsContainer.textContent = ('0' + seconds).slice(-2);
 };
 
 
-// console.log(seconds);
-// document.body.style.backgroundColor = '#' + hexColorStr;
+console.log(seconds);
 secondsbar.style.width = percentageForStatusbar + '%';
 
 }
